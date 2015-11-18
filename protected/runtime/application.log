@@ -1,0 +1,189 @@
+2015/11/10 10:53:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php:483
+Stack trace:
+#0 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(270): CController->missingAction('login')
+#1 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('login')
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\wamp\www\studuy\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=user/login
+---
+2015/11/10 10:54:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php:483
+Stack trace:
+#0 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(270): CController->missingAction('login')
+#1 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('login')
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\wamp\www\studuy\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=user/login
+---
+2015/11/10 11:01:04 [error] [exception.CException] exception 'CException' with message 'UserController and its behaviors do not have a method or closure named "renderPartion".' in D:\wamp\www\yii-1.1.16.bca042\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\wamp\www\studuy\protected\controllers\UserController.php(22): CComponent->__call('renderPartion', Array)
+#1 D:\wamp\www\studuy\protected\controllers\UserController.php(22): UserController->renderPartion('login')
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(49): UserController->actionlogin()
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('login')
+#7 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#8 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 D:\wamp\www\studuy\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=user/login
+---
+2015/11/10 11:02:45 [error] [exception.CException] exception 'CException' with message 'UserController and its behaviors do not have a method or closure named "renderPartion".' in D:\wamp\www\yii-1.1.16.bca042\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\wamp\www\studuy\protected\controllers\UserController.php(22): CComponent->__call('renderPartion', Array)
+#1 D:\wamp\www\studuy\protected\controllers\UserController.php(22): UserController->renderPartion('login')
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(49): UserController->actionlogin()
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('login')
+#7 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#8 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 D:\wamp\www\studuy\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=user/login
+---
+2015/11/10 11:06:38 [error] [exception.CException] exception 'CException' with message 'UserController and its behaviors do not have a method or closure named "renderPartion".' in D:\wamp\www\yii-1.1.16.bca042\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\wamp\www\studuy\protected\controllers\UserController.php(22): CComponent->__call('renderPartion', Array)
+#1 D:\wamp\www\studuy\protected\controllers\UserController.php(22): UserController->renderPartion('login')
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(49): UserController->actionlogin()
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('login')
+#7 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#8 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 D:\wamp\www\studuy\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=user/login
+---
+2015/11/10 11:07:16 [error] [exception.CException] exception 'CException' with message 'UserController and its behaviors do not have a method or closure named "renderPartion".' in D:\wamp\www\yii-1.1.16.bca042\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\wamp\www\studuy\protected\controllers\UserController.php(22): CComponent->__call('renderPartion', Array)
+#1 D:\wamp\www\studuy\protected\controllers\UserController.php(22): UserController->renderPartion('login')
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(49): UserController->actionlogin()
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('login')
+#7 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#8 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 D:\wamp\www\studuy\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=user/login
+---
+2015/11/10 11:09:40 [error] [exception.CException] exception 'CException' with message 'UserController and its behaviors do not have a method or closure named "renderPartion".' in D:\wamp\www\yii-1.1.16.bca042\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\wamp\www\studuy\protected\controllers\UserController.php(22): CComponent->__call('renderPartion', Array)
+#1 D:\wamp\www\studuy\protected\controllers\UserController.php(22): UserController->renderPartion('login')
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(49): UserController->actionlogin()
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('login')
+#7 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#8 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 D:\wamp\www\studuy\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=user/login
+---
+2015/11/10 14:22:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "register".' in D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php:483
+Stack trace:
+#0 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(270): CController->missingAction('register')
+#1 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('register')
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('goods/register')
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\wamp\www\studuy\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=goods/register
+---
+2015/11/10 15:22:40 [error] [php] Use of undefined constant CSS_URL - assumed 'CSS_URL' (D:\wamp\www\studuy\protected\views\goods\category.php:11)
+Stack trace:
+#0 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(869): GoodsController->renderFile()
+#1 D:\wamp\www\studuy\protected\controllers\GoodsController.php(21): GoodsController->renderPartial()
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(49): GoodsController->actionCategory()
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(286): GoodsController->runAction()
+#5 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(265): GoodsController->runActionWithFilters()
+#6 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): GoodsController->run()
+#7 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 D:\wamp\www\studuy\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=goods/category
+in D:\wamp\www\studuy\protected\views\goods\category.php (11)
+in D:\wamp\www\studuy\protected\controllers\GoodsController.php (21)
+in D:\wamp\www\studuy\index.php (13)
+2015/11/10 15:24:08 [error] [php] Use of undefined constant CSS_URL - assumed 'CSS_URL' (D:\wamp\www\studuy\protected\views\goods\category.php:11)
+Stack trace:
+#0 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(869): GoodsController->renderFile()
+#1 D:\wamp\www\studuy\protected\controllers\GoodsController.php(21): GoodsController->renderPartial()
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(49): GoodsController->actionCategory()
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(286): GoodsController->runAction()
+#5 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(265): GoodsController->runActionWithFilters()
+#6 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): GoodsController->run()
+#7 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 D:\wamp\www\studuy\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=goods/category
+in D:\wamp\www\studuy\protected\views\goods\category.php (11)
+in D:\wamp\www\studuy\protected\controllers\GoodsController.php (21)
+in D:\wamp\www\studuy\index.php (13)
+2015/11/10 16:02:36 [error] [php] Use of undefined constant CSS_URL - assumed 'CSS_URL' (D:\wamp\www\studuy\protected\views\goods\category.php:11)
+Stack trace:
+#0 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(869): GoodsController->renderFile()
+#1 D:\wamp\www\studuy\protected\controllers\GoodsController.php(21): GoodsController->renderPartial()
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(49): GoodsController->actionCategory()
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(286): GoodsController->runAction()
+#5 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(265): GoodsController->runActionWithFilters()
+#6 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): GoodsController->run()
+#7 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 D:\wamp\www\studuy\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=goods/category
+in D:\wamp\www\studuy\protected\views\goods\category.php (11)
+in D:\wamp\www\studuy\protected\controllers\GoodsController.php (21)
+in D:\wamp\www\studuy\index.php (13)
+2015/11/10 16:05:43 [error] [php] Use of undefined constant CSS_URL - assumed 'CSS_URL' (D:\wamp\www\studuy\protected\views\goods\category.php:11)
+Stack trace:
+#0 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(869): GoodsController->renderFile()
+#1 D:\wamp\www\studuy\protected\controllers\GoodsController.php(21): GoodsController->renderPartial()
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\actions\CInlineAction.php(49): GoodsController->actionCategory()
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(286): GoodsController->runAction()
+#5 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(265): GoodsController->runActionWithFilters()
+#6 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): GoodsController->run()
+#7 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 D:\wamp\www\studuy\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=goods/category
+in D:\wamp\www\studuy\protected\views\goods\category.php (11)
+in D:\wamp\www\studuy\protected\controllers\GoodsController.php (21)
+in D:\wamp\www\studuy\index.php (13)
+2015/11/17 11:42:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "category".' in D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php:483
+Stack trace:
+#0 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(270): CController->missingAction('category')
+#1 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('category')
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('index/category')
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\wamp\www\studuy\index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=index/category
+---
+2015/11/17 14:53:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php:483
+Stack trace:
+#0 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('test')
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\wamp\www\studuy\index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=test
+---
