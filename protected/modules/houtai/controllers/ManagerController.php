@@ -6,7 +6,11 @@
 class ManagerController extends Controller{
 	
 	function actionLogin(){
-		echo "this is houtai";
+		//echo "this is houtai";
+		/*
+		 * äÖÈ¾ÊÓÍ¼
+		 * */
+		$this->renderPartial('login');
 	}
 } 
 
