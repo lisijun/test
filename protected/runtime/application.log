@@ -634,3 +634,25 @@ Stack trace:
 REQUEST_URI=/index.php?r=houtai/index/right.html
 HTTP_REFERER=http://localhost/index.php?r=houtai/index/index
 ---
+2015/11/26 15:51:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "add".' in D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php:483
+Stack trace:
+#0 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(270): CController->missingAction('add')
+#1 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('add')
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/index/ad...')
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\wamp\www\studuy\index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/index/add
+HTTP_REFERER=http://localhost/index.php?r=houtai/goods/show
+---
+2015/11/26 15:51:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "add".' in D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php:483
+Stack trace:
+#0 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(270): CController->missingAction('add')
+#1 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('add')
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/index/ad...')
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\wamp\www\studuy\index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/index/add
+HTTP_REFERER=http://localhost/index.php?r=houtai/goods/show
+---

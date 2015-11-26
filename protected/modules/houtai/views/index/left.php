@@ -107,8 +107,8 @@
                             <td align=middle width=30><img height=9 
                                                            src="<?php echo ADMIN_IMG_URL; ?>menu_icon.gif" width=9></td>
                             <td><a class=menuchild 
-                                   href="#" 
-                                   target=main>产品展示</a></td></tr>
+                                   href="./index.php?r=houtai/goods/show" 
+                                   target=right>产品展示</a></td></tr>
                         <tr height=20>
                             <td align=middle width=30><img height=9 
                                                            src="<?php echo ADMIN_IMG_URL; ?>menu_icon.gif" width=9></td>
