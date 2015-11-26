@@ -27,6 +27,13 @@ class IndexController extends Controller{
 		
 		$this->renderPartial('right');
 	}
+	/*
+	 * 制作一个索引方法index,引入frameset模板
+	 * */
+	function actionIndex(){
+		
+		$this->renderPartial('index');
+	}
 }
 
 ?>

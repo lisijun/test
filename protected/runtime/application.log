@@ -327,3 +327,310 @@ Stack trace:
 #7 {main}
 REQUEST_URI=/index.php?r=houtai/manager/login
 ---
+2015/11/26 11:47:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php:483
+Stack trace:
+#0 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(270): CController->missingAction('index')
+#1 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('index')
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/index/in...')
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\wamp\www\studuy\index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/index/index
+---
+2015/11/26 11:56:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "head.html".' in D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php:483
+Stack trace:
+#0 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(270): CController->missingAction('head.html')
+#1 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('head.html')
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/index/he...')
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\wamp\www\studuy\index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/index/head.html
+HTTP_REFERER=http://localhost/index.php?r=houtai/index/index
+---
+2015/11/26 11:56:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "right.html".' in D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php:483
+Stack trace:
+#0 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(270): CController->missingAction('right.html')
+#1 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('right.html')
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/index/ri...')
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\wamp\www\studuy\index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/index/right.html
+HTTP_REFERER=http://localhost/index.php?r=houtai/index/index
+---
+2015/11/26 11:56:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "left.html".' in D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php:483
+Stack trace:
+#0 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(270): CController->missingAction('left.html')
+#1 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('left.html')
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/index/le...')
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\wamp\www\studuy\index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/index/left.html
+HTTP_REFERER=http://localhost/index.php?r=houtai/index/index
+---
+2015/11/26 11:57:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "left.html".' in D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php:483
+Stack trace:
+#0 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(270): CController->missingAction('left.html')
+#1 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('left.html')
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/index/le...')
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\wamp\www\studuy\index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/index/left.html
+HTTP_REFERER=http://localhost/index.php?r=houtai/index/index
+---
+2015/11/26 11:57:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "head.html".' in D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php:483
+Stack trace:
+#0 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(270): CController->missingAction('head.html')
+#1 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('head.html')
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/index/he...')
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\wamp\www\studuy\index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/index/head.html
+HTTP_REFERER=http://localhost/index.php?r=houtai/index/index
+---
+2015/11/26 11:57:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "right.html".' in D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php:483
+Stack trace:
+#0 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(270): CController->missingAction('right.html')
+#1 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('right.html')
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/index/ri...')
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\wamp\www\studuy\index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/index/right.html
+HTTP_REFERER=http://localhost/index.php?r=houtai/index/index
+---
+2015/11/26 12:00:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "head.html".' in D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php:483
+Stack trace:
+#0 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(270): CController->missingAction('head.html')
+#1 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('head.html')
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/index/he...')
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\wamp\www\studuy\index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/index/head.html
+HTTP_REFERER=http://localhost/index.php?r=houtai/index/index
+---
+2015/11/26 12:00:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "right.html".' in D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php:483
+Stack trace:
+#0 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(270): CController->missingAction('right.html')
+#1 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('right.html')
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/index/ri...')
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\wamp\www\studuy\index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/index/right.html
+HTTP_REFERER=http://localhost/index.php?r=houtai/index/index
+---
+2015/11/26 12:00:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "left.html".' in D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php:483
+Stack trace:
+#0 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(270): CController->missingAction('left.html')
+#1 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('left.html')
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/index/le...')
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\wamp\www\studuy\index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/index/left.html
+HTTP_REFERER=http://localhost/index.php?r=houtai/index/index
+---
+2015/11/26 12:03:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "head.html".' in D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php:483
+Stack trace:
+#0 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(270): CController->missingAction('head.html')
+#1 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('head.html')
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/index/he...')
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\wamp\www\studuy\index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/index/head.html
+HTTP_REFERER=http://localhost/index.php?r=houtai/index/index
+---
+2015/11/26 12:03:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "right.html".' in D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php:483
+Stack trace:
+#0 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(270): CController->missingAction('right.html')
+#1 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('right.html')
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/index/ri...')
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\wamp\www\studuy\index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/index/right.html
+HTTP_REFERER=http://localhost/index.php?r=houtai/index/index
+---
+2015/11/26 12:03:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "left.html".' in D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php:483
+Stack trace:
+#0 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(270): CController->missingAction('left.html')
+#1 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('left.html')
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/index/le...')
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\wamp\www\studuy\index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/index/left.html
+HTTP_REFERER=http://localhost/index.php?r=houtai/index/index
+---
+2015/11/26 12:03:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "left.html".' in D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php:483
+Stack trace:
+#0 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(270): CController->missingAction('left.html')
+#1 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('left.html')
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/index/le...')
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\wamp\www\studuy\index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/index/left.html
+HTTP_REFERER=http://localhost/index.php?r=houtai/index/index
+---
+2015/11/26 12:03:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "head.html".' in D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php:483
+Stack trace:
+#0 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(270): CController->missingAction('head.html')
+#1 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('head.html')
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/index/he...')
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\wamp\www\studuy\index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/index/head.html
+HTTP_REFERER=http://localhost/index.php?r=houtai/index/index
+---
+2015/11/26 12:03:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "right.html".' in D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php:483
+Stack trace:
+#0 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(270): CController->missingAction('right.html')
+#1 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('right.html')
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/index/ri...')
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\wamp\www\studuy\index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/index/right.html
+HTTP_REFERER=http://localhost/index.php?r=houtai/index/index
+---
+2015/11/26 12:04:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "right.html".' in D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php:483
+Stack trace:
+#0 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(270): CController->missingAction('right.html')
+#1 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('right.html')
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/index/ri...')
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\wamp\www\studuy\index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/index/right.html
+HTTP_REFERER=http://localhost/index.php?r=houtai/index/index
+---
+2015/11/26 12:04:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "head.html".' in D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php:483
+Stack trace:
+#0 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(270): CController->missingAction('head.html')
+#1 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('head.html')
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/index/he...')
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\wamp\www\studuy\index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/index/head.html
+HTTP_REFERER=http://localhost/index.php?r=houtai/index/index
+---
+2015/11/26 12:04:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "left.html".' in D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php:483
+Stack trace:
+#0 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(270): CController->missingAction('left.html')
+#1 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('left.html')
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/index/le...')
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\wamp\www\studuy\index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/index/left.html
+HTTP_REFERER=http://localhost/index.php?r=houtai/index/index
+---
+2015/11/26 12:05:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "head.html".' in D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php:483
+Stack trace:
+#0 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(270): CController->missingAction('head.html')
+#1 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('head.html')
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/index/he...')
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\wamp\www\studuy\index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/index/head.html
+HTTP_REFERER=http://localhost/index.php?r=houtai/index/
+---
+2015/11/26 12:05:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "right.html".' in D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php:483
+Stack trace:
+#0 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(270): CController->missingAction('right.html')
+#1 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('right.html')
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/index/ri...')
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\wamp\www\studuy\index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/index/right.html
+HTTP_REFERER=http://localhost/index.php?r=houtai/index/
+---
+2015/11/26 12:05:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "left.html".' in D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php:483
+Stack trace:
+#0 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(270): CController->missingAction('left.html')
+#1 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('left.html')
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/index/le...')
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\wamp\www\studuy\index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/index/left.html
+HTTP_REFERER=http://localhost/index.php?r=houtai/index/
+---
+2015/11/26 12:05:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "right.html".' in D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php:483
+Stack trace:
+#0 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(270): CController->missingAction('right.html')
+#1 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('right.html')
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/index/ri...')
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\wamp\www\studuy\index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/index/right.html
+HTTP_REFERER=http://localhost/index.php?r=houtai/index/index
+---
+2015/11/26 12:05:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "left.html".' in D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php:483
+Stack trace:
+#0 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(270): CController->missingAction('left.html')
+#1 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('left.html')
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/index/le...')
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\wamp\www\studuy\index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/index/left.html
+HTTP_REFERER=http://localhost/index.php?r=houtai/index/index
+---
+2015/11/26 12:05:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "head.html".' in D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php:483
+Stack trace:
+#0 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(270): CController->missingAction('head.html')
+#1 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('head.html')
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/index/he...')
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\wamp\www\studuy\index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/index/head.html
+HTTP_REFERER=http://localhost/index.php?r=houtai/index/index
+---
+2015/11/26 12:06:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "head.html".' in D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php:483
+Stack trace:
+#0 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(270): CController->missingAction('head.html')
+#1 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('head.html')
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/index/he...')
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\wamp\www\studuy\index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/index/head.html
+HTTP_REFERER=http://localhost/index.php?r=houtai/index/index
+---
+2015/11/26 12:06:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "left.html".' in D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php:483
+Stack trace:
+#0 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(270): CController->missingAction('left.html')
+#1 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('left.html')
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/index/le...')
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\wamp\www\studuy\index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/index/left.html
+HTTP_REFERER=http://localhost/index.php?r=houtai/index/index
+---
+2015/11/26 12:06:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "right.html".' in D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php:483
+Stack trace:
+#0 D:\wamp\www\yii-1.1.16.bca042\framework\web\CController.php(270): CController->missingAction('right.html')
+#1 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(282): CController->run('right.html')
+#2 D:\wamp\www\yii-1.1.16.bca042\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/index/ri...')
+#3 D:\wamp\www\yii-1.1.16.bca042\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\wamp\www\studuy\index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/index/right.html
+HTTP_REFERER=http://localhost/index.php?r=houtai/index/index
+---
